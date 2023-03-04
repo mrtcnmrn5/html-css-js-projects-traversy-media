@@ -1,0 +1,35 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.container{ background-color: rgb(107, 43, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#search{
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 0;
+    border: none;
+}
+.icon-search{
+    width: 50px;
+    height: 38.56px;
+    font-size: 20px !important;
+    padding-top: 10px;
+    background-color: #fff;
+   
+   
+}
+.search-icon-button{
+     border: none;
+    border-radius: 0;
+}
+
+.close{
+    display: none;
+}
