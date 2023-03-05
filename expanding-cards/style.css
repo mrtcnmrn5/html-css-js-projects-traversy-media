@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+   display: grid;
+   grid-template-columns: repeat(5,auto);
+   height: 100vh;
+   gap: 5px;
+}
+
+.foto{
+    display: grid;
+    margin: auto auto;
+    border-radius: 15vh;
+    width: 70%;
+    height: 70vh;
+}
+
+.expand{
+width: 80%;
+border-radius: 10px;
+}
